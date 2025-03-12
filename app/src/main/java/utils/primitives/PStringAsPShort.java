@@ -1,16 +1,17 @@
 package utils.primitives;
 
 import utils.primitives.interfaces.PShort;
+import utils.primitives.interfaces.PString;
 
 final public class PStringAsPShort implements PShort {
-    public PStringAsPShort(final String value) {
+    public PStringAsPShort(final PString value) {
         this.value = value;
     }
 
     @Override
     public short shortValue() {
-        return Short.parseShort(value);
+        return Short.parseShort(value.strValue());
     }
 
-    private final String value;
+    private final PString value;
 }
