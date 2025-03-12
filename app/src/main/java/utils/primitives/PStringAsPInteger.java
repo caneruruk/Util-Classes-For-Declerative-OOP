@@ -4,6 +4,10 @@ import utils.primitives.interfaces.PInteger;
 import utils.primitives.interfaces.PString;
 
 final public class PStringAsPInteger implements PInteger {
+    public PStringAsPInteger(final String value) {
+        this(new StringAsPString(value));
+    }
+    
     public PStringAsPInteger(final PString value) {
         this.value = value;
     }
