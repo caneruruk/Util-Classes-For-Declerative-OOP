@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Integer;
+import utils.primitives.interfaces.Long;
 
 final public class IntegerAsLong implements Long {
     public IntegerAsLong(final Integer value) {

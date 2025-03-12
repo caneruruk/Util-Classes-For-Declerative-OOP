@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Byte;
+import utils.primitives.interfaces.Long;
 
 final public class ByteAsLong implements Long {
     public ByteAsLong(final Byte value) {

@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Double;
+import utils.primitives.interfaces.Short;
 
 final public class ShortAsDouble implements Double {
     public ShortAsDouble(final Short value) {

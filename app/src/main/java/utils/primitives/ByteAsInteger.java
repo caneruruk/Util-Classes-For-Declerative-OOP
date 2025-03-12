@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Byte;
+import utils.primitives.interfaces.Integer;
 
 final public class ByteAsInteger implements Integer {
     public ByteAsInteger(final Byte value) {

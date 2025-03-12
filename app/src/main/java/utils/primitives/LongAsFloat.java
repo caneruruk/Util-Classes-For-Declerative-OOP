@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Float;
+import utils.primitives.interfaces.Long;
 
 final public class LongAsFloat implements Float {
     public LongAsFloat(final Long value) {

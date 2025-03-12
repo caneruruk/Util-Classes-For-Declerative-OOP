@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Long;
+import utils.primitives.interfaces.Short;
 
 final public class ShortAsLong implements Long {
     public ShortAsLong(final Short value) {

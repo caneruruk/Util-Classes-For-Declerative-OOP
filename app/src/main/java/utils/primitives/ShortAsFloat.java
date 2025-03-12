@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Float;
+import utils.primitives.interfaces.Short;
 
 final public class ShortAsFloat implements Float {
     public ShortAsFloat(final Short value) {

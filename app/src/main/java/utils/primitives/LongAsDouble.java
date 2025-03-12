@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Double;
+import utils.primitives.interfaces.Long;
 
 final public class LongAsDouble implements Double {
     public LongAsDouble(final Long value) {

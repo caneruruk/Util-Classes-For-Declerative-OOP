@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Byte;
+import utils.primitives.interfaces.Double;
 
 final public class ByteAsDouble implements Double {
     public ByteAsDouble(final Byte value) {

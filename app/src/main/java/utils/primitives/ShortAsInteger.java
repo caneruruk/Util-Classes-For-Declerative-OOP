@@ -1,4 +1,7 @@
-package utils;
+package utils.primitives;
+
+import utils.primitives.interfaces.Integer;
+import utils.primitives.interfaces.Short;
 
 final public class ShortAsInteger implements Integer {
     public ShortAsInteger(final Short value) {
