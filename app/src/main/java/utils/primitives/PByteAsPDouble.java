@@ -8,6 +8,10 @@ final public class PByteAsPDouble implements PDouble {
         this(new PStringAsPByte(value));
     }
 
+    public PByteAsPDouble(final int value) {
+        this(new IntegerAsPByte(value));
+    }
+
     public PByteAsPDouble(final PByte value) {
         this.value = value;
     }
