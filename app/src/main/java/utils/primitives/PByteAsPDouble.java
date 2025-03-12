@@ -4,6 +4,10 @@ import utils.primitives.interfaces.PByte;
 import utils.primitives.interfaces.PDouble;
 
 final public class PByteAsPDouble implements PDouble {
+    public PByteAsPDouble(final String value) {
+        this(new PStringAsPByte(value));
+    }
+
     public PByteAsPDouble(final byte value) {
         this(new ByteAsPByte(value));
     }
