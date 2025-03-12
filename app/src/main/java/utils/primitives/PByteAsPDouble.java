@@ -4,14 +4,6 @@ import utils.primitives.interfaces.PByte;
 import utils.primitives.interfaces.PDouble;
 
 final public class PByteAsPDouble implements PDouble {
-    public PByteAsPDouble(final String value) {
-        this(new PStringAsPByte(value));
-    }
-
-    public PByteAsPDouble(final int value) {
-        this(new IntegerAsPByte(value));
-    }
-
     public PByteAsPDouble(final PByte value) {
         this.value = value;
     }

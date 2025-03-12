@@ -4,10 +4,6 @@ import utils.primitives.interfaces.PDouble;
 import utils.primitives.interfaces.PString;
 
 final public class PStringAsPDouble implements PDouble {
-    public PStringAsPDouble(final String value) {
-        this(new StringAsPString(value));
-    }
-
     public PStringAsPDouble(final PString value) {
         this.value = value;
     }

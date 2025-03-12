@@ -4,14 +4,6 @@ import utils.primitives.interfaces.PByte;
 import utils.primitives.interfaces.PShort;
 
 final public class PByteAsPShort implements PShort {
-    public PByteAsPShort(final String value) {
-        this(new PStringAsPByte(value));
-    }
-
-    public PByteAsPShort(final int value) {
-        this(new IntegerAsPByte(value));
-    }
-
     public PByteAsPShort(final PByte value) {
         this.value = value;
     }
