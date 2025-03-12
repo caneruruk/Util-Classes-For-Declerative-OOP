@@ -8,10 +8,6 @@ final public class PByteAsPLong implements PLong {
         this(new PStringAsPByte(value));
     }
 
-    public PByteAsPLong(final byte value) {
-        this(new ByteAsPByte(value));
-    }
-
     public PByteAsPLong(final PByte value) {
         this.value = value;
     }

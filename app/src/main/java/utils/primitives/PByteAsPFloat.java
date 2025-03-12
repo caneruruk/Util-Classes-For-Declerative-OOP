@@ -8,10 +8,6 @@ final public class PByteAsPFloat implements PFloat {
         this(new PStringAsPByte(value));
     }
 
-    public PByteAsPFloat(final byte value) {
-        this(new ByteAsPByte(value));
-    }
-
     public PByteAsPFloat(final PByte value) {
         this.value = value;
     }

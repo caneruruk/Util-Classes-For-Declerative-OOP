@@ -8,10 +8,6 @@ final public class PByteAsPShort implements PShort {
         this(new PStringAsPByte(value));
     }
 
-    public PByteAsPShort(final byte value) {
-        this(new ByteAsPByte(value));
-    }
-
     public PByteAsPShort(final PByte value) {
         this.value = value;
     }
