@@ -4,6 +4,10 @@ import utils.primitives.interfaces.PShort;
 import utils.primitives.interfaces.PString;
 
 final public class PStringAsPShort implements PShort {
+    public PStringAsPShort(final String value) {
+        this(new StringAsPString(value));
+    }
+
     public PStringAsPShort(final PString value) {
         this.value = value;
     }
