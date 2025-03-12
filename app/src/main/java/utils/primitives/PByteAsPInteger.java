@@ -8,6 +8,10 @@ final public class PByteAsPInteger implements PInteger {
         this(new PStringAsPByte(value));
     }
 
+    public PByteAsPInteger(final int value) {
+        this(new IntegerAsPByte(value));
+    }
+
     public PByteAsPInteger(final PByte value) {
         this.value = value;
     }
