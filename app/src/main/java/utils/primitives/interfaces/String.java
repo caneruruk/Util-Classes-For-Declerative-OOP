@@ -1,5 +1,5 @@
 package utils.primitives.interfaces;
 
 public interface String {
-    String strValue();
+    java.lang.String strValue();
 }
