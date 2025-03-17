@@ -1,13 +1,13 @@
-package intgr;
+package lng;
 
-final public class Remainder implements Interface {
-    public Remainder(final Interface left, final Interface right) {
+final public class Rem implements Interface {
+    public Rem(final Interface left, final Interface right) {
         this.left = left;
         this.right = right;
     }
 
     @Override
-    public int value() {
+    public long value() {
         return left.value() % right.value();
     }
 
